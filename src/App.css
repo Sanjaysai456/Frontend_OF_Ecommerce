@@ -1,0 +1,15 @@
+
+/* src/App.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+/* Hide the scrollbar for the product row */
+.no-scrollbar {
+    -ms-overflow-style: none; /* Internet Explorer 10+ */
+    scrollbar-width: none; /* Firefox */
+  }
+  
+  .no-scrollbar::-webkit-scrollbar {
+    display: none; /* Chrome, Safari, Opera */
+  }
+  
